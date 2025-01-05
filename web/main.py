@@ -1,25 +1,3 @@
-"""
-main.py
-
-A modular Python script to scrape price information from TGJU.org. The script extracts 
-specific price details (e.g., USD price, gold mesghal, and 18k gold) using BeautifulSoup.
-
-Features:
-- Modular and scalable structure to add or remove price items.
-- Stylish and colorful output using the 'rich' library.
-- Handles missing elements gracefully with clear error messages.
-
-Dependencies:
-- requests: To make HTTP requests to the target website.
-- beautifulsoup4: To parse and extract data from HTML.
-- rich: To display prices in a colorful and stylish way.
-
-Usage:
-1. Install dependencies: pip install requests beautifulsoup4 rich
-2. Run the script: python price_scraper.py
-3. View extracted prices in a styled and colorful format in the console.
-"""
-
 import requests
 from bs4 import BeautifulSoup
 from rich.console import Console
